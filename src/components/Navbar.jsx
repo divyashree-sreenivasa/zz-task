@@ -50,7 +50,7 @@ function Navbar() {
         </Center>
         <Right>
             <MenuItem>
-                <Link to='/cart'>
+                <Link to='/cart' style={{ textDecoration: "none", color: "black" }}>
                     <Badge badgeContent={quantity} color="success">
                         <ShoppingCartOutlinedIcon />
                     </Badge>
